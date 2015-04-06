@@ -1,0 +1,9 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  pre:
+    - wget https://github.com/harbur/captain/releases/download/v0.0.1/captain
+    - chmod u+x captain
+    - ./captain build
