@@ -1,0 +1,4 @@
+install:
+  - wget https://github.com/harbur/captain/releases/download/v0.0.1/captain
+  - chmod u+x captain
+script: ./captain build
