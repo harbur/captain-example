@@ -8,3 +8,6 @@ dependencies:
     - chmod u+x ~/bin/captain
   override:
     - captain build
+test:
+  override:
+    - captain test

@@ -3,4 +3,4 @@ build:
     - Dockerfile=harbur/busybox
 test:
   unit:
-    - docker run harbur/captain-test go test github.com/harbur/captain/captain
+    - docker run harbur/busybox|grep "hello there"
