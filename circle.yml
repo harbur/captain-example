@@ -11,3 +11,8 @@ dependencies:
 test:
   override:
     - captain test
+deployment:
+  hub:
+    branch: master
+    commands:
+      - captain push
