@@ -3,5 +3,5 @@ build:
     - Dockerfile=harbur/captain-example
 test:
   unit:
-    - docker run harbur/busybox|grep "hello there"
-    - docker run harbur/busybox|grep "another feature"
+    - docker run harbur/captain-example|grep "hello there"
+    - docker run harbur/captain-example|grep "another feature"
