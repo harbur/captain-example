@@ -4,3 +4,4 @@ build:
 test:
   unit:
     - docker run harbur/busybox|grep "hello there"
+    - docker run harbur/busybox|grep "another feature"
