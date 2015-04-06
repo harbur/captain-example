@@ -1,6 +1,6 @@
 build:
   images:
-    - Dockerfile=harbur/busybox
+    - Dockerfile=harbur/captain-example
 test:
   unit:
     - docker run harbur/busybox|grep "hello there"
