@@ -4,6 +4,6 @@ machine:
 
 dependencies:
   pre:
-    - wget https://github.com/harbur/captain/releases/download/v0.0.1/captain
-    - chmod u+x captain
-    - ./captain build
+    - curl -sL https://github.com/harbur/captain/releases/download/v0.0.1/captain > ~/bin/captain
+    - chmod u+x ~/bin/captain
+    - captain build
