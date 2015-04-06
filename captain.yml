@@ -1,6 +1,6 @@
 build:
   images:
-    - Dockerfile=harbur/captain-example
+    Dockerfile: harbur/captain-example
 test:
   unit:
     - docker run harbur/captain-example|grep "hello there"
